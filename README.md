@@ -7,7 +7,7 @@
 
 使用方法：
 
-1.确保安装了必要的库：matplotlib, random, collections
+1.确保安装了matplotlib
 
 2.运行程序
 
