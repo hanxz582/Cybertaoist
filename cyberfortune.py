@@ -9,9 +9,6 @@ from collections import Counter
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
-#WDNMD第一次测试的时候出来6个阴爻我还以为我程序出了啥毛病，想一下啥毛病没有哇，再试一遍原来是真全是阴爻
-#对不起确实是我错了，我开始if x[0][0] == 0:写的if x == 0:，阳爻全变阴爻了
-
 print("开始后一定要想着自己要问什么")
 input("按回车键开始算命")
 bengua = []
@@ -87,4 +84,5 @@ plt.tight_layout()
 plt.savefig('hexagrams.png', dpi=300)
 plt.show()     
 print("解卦把hexagrams.png给AI看")
+
 
